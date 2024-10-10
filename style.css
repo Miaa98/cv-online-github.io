@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.profileImg img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile_name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile_title {
+    font-size: 18px;
+    font-weight: normal;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Deskripsi profil */
+.deskripsi {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+
+section {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+.contact-info ul,
+.education .item ul,
+.experience .item ul,
+.skills ul,
+.languages ul {
+    list-style: none;
+}
+
+.contact-info ul li,
+.education .item p,
+.experience .item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.experience .item {
+    margin-bottom: 20px;
+}
+
+.experience .item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience .item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.experience .item ul li {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+
+.education .item {
+    margin-bottom: 20px;
+}
+
+.education .item h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.education .item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+
+.skills ul,
+.languages ul {
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+
+@media (max-width: 768px) {
+    .container, section {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .profile_name {
+        font-size: 24px;
+    }
+
+    .profile_title {
+        font-size: 16px;
+    }
+}
